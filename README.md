@@ -1,16 +1,19 @@
 # Aula abierta
 
-Sitio educativo estático sobre entornos digitales accesibles e incluyentes en y para el aprendizaje.
+Sitio educativo en TypeScript sobre entornos digitales accesibles e incluyentes en y para el aprendizaje.
 
 ## Publicación en Vercel
 
-El repositorio contiene una página estática: impórtalo en Vercel y deja el framework como **Other**. No requiere comando de compilación ni carpeta de salida; `index.html` está en la raíz.
+Importa el repositorio en Vercel. Detectará Vite automáticamente. El comando de compilación es `npm run build` y la carpeta de salida es `dist`.
+
+Para trabajar localmente, instala dependencias con `npm install` y ejecuta `npm run dev`.
 
 ## Archivos
 
 - `index.html`: contenido y estructura semántica.
 - `styles.css`: estilos adaptables a móvil, tableta y escritorio.
-- `script.js`: menú móvil y controles opcionales de lectura.
+- `src/main.ts`: menú móvil y controles opcionales de lectura, con comprobación estricta de tipos.
+- `package.json` y `tsconfig.json`: scripts y configuración de TypeScript.
 - `vercel.json`: URLs limpias.
 
 Las fuentes legales y técnicas están enlazadas en la sección «Fuentes y recursos» del sitio.
